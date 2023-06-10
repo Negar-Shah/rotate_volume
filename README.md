@@ -9,3 +9,6 @@ One important aspect to note is that the size of the rotated volume remains the 
 The "Heart Rotation in 3D SPECT Images" function offers a valuable tool for researchers and medical professionals working with MPI SPECT data. By accurately aligning the LV long axis, it facilitates the subsequent analysis and interpretation of the myocardial perfusion images.
 
 Note: MPI stands for Myocardial Perfusion Imaging, SPECT stands for Single-Photon Emission Computed Tomography, and LV stands for Left Ventricle.
+The image below, shows the example of this code. The rotation axis obtained from fitting an ellipsoid to the LV.
+![image](https://github.com/Negar-Shah/rotate_volume/assets/59450540/1f6a77b0-2512-4ca1-affb-2572ca804e2e)
+
