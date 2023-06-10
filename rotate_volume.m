@@ -26,9 +26,8 @@ function [rot_vol] = rotate_volume(vol, rot_center, axis_before, axis_after, met
 % "axis_before" must be the object axis, and "axis_after" is equl to
 % [0, 0, 1]
 
-r = vrrotvec(axis_before, axis_after);
-m = vrrotvec2mat(r);
-rot_mat = m; %rotation matrix
+r = vrrotvec(axis_before, axis_after); 
+rot_mat = vrrotvec2mat(r); % calculate rotation matrix
 s = size(vol);
 rot_center = floor(rot_center); 
 sy = 1: s(1);
